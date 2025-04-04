@@ -43,24 +43,6 @@ public class Cart {
 		}
 	}
 	
-//	public void add(Product p, int quantity) {
-//        if (quantity > p.getQuantity()) {
-//            System.out.println("There is not enough quantity in the inventory!");
-//        } else {
-//            if (listOfItems.containsKey(p)) {
-//                listOfItems.put(p, listOfItems.get(p) + quantity);
-//                p.setQuantity(p.getQuantity() - quantity);
-//                System.out.println(p.getName() + " added to your cart!");
-//            } else {
-//                if (p instanceof Expirable) {
-//                    // Print expiration date for expirable products
-//                    System.out.println("Expiration date of " + p.getName() + ": " + ((Expirable) p).getExpirationDate());
-//                }
-//                listOfItems.put(p, quantity);
-//                p.setQuantity(p.getQuantity() - quantity);
-//            }
-//        }
-//    }
 	
 	public void remove(Product p, int quantity) {
 				
